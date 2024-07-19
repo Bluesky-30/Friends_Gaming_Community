@@ -6,7 +6,7 @@ import Styletext from './Styletext/Styletext';
 
 function Home() {
     return (
-        <div className="w-full h-[400vh] sm:h-[380vh]  bg-[#0d1013]">
+        <div className="w-full  sm:h-[380vh]  bg-[#0d1013] ">
            {/* Hero Section  */}
             <section className='w-[100%] sm:h-[100vh] z-[1]'>
                 <img src="./Mesiiiiiii.jpg" alt="Messi"
@@ -118,16 +118,18 @@ function Home() {
             </div>
 
             
-            <div className='w-[80%] h-[200px] sm:w-[900px] sm:h-[500px] mt-[50px] sm:mt-[100px] mx-auto
+            <div className='w-[80%] h-[200px] sm:w-[900px] sm:h-[500px] mt-[30px] sm:mt-[100px] mx-auto
              shadow-white shadow-md flex rounded-xl'>
                 <CarouselCustomArrows /> 
             </div>
 
-            <div className='w-full mt-4 sm:mt-8 flex justify-center'>
+            <div className='w-full mt-4 sm:mt-8 flex justify-center '>
                 <button className='text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 p-4 rounded-md w-[40%] sm:w-[20%] text-sm sm:text-2xl font-bold'>
                     Achievements
                 </button>
             </div>
+
+            <div className='w-full bg-transparent h-[30px] sm:hidden'></div>
 
          
             
