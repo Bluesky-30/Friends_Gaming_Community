@@ -120,22 +120,22 @@ export function CarouselCustomArrows() {
       )}
     >
       <img
-        src="/public/achievements1.jpg"
+        src="./achievements1.jpg"
         alt="image 1"
         className="h-[100%] w-[80%] object-cover mx-auto"
       />
       <img
-        src="/public/achievements2.jpg"
+        src="./achievements2.jpg"
         alt="image 2"
         className="h-[100%] w-[80%] object-cover mx-auto"
       />
       <img
-        src="/public/achievements3.jpg"
+        src="./achievements3.jpg"
         alt="image 3"
         className="h-[100%] w-[80%] object-cover mx-auto"
       />
       <img
-        src="/public/achievements4.jpg"
+        src="./achievements4.jpg"
         alt="image 3"
         className="h-[100%] w-[80%] object-cover mx-auto"
       />
