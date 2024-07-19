@@ -9,7 +9,7 @@ function Home() {
         <div className="w-full h-[350vh] sm:h-[380vh]  bg-[#0d1013]">
            {/* Hero Section  */}
             <section className='w-[100%] sm:h-[100vh] z-[1]'>
-                <img src="../../public/Mesiiiiiii.jpg" alt="Messi"
+                <img src="./Mesiiiiiii.jpg" alt="Messi"
                 className=' object-cover w-full h-[1/2] sm:h-full absolute mix-blend-screen' />
                 
                 
@@ -30,7 +30,7 @@ function Home() {
             <div className=' w-[90%] sm:w-[80%] flex flex-col  sm:flex-row  mt-[80px] mx-auto   hover:rounded-md 
             hover:border hover:bg-[#0d1003] cursor-pointer transition duration-700 hover:scale-95 '>
                 <div className='w-[100%] sm:w-[50%] p-4'>
-                    <img src="../../public/about_img.png" alt="about-img" 
+                    <img src="./about_img.png" alt="about-img" 
                     className='w-full h-full object-cover'/>
                 </div>
                 <div className='w-[100%] sm:w-[50%] p-4 '>
@@ -49,7 +49,7 @@ function Home() {
                 
                 <div className="sm:w-[370px] sm:h-[500px] w-[270px] h-[350px] mx-auto rounded-md border transition duration-500 hover:scale-110 cursor-pointer">
                     <img
-                        src="/public/firstFran.jpg"
+                        src="./firstFran.jpg"
                         alt="Laptop"
                         className="h-[50%] w-full rounded-md"
                     />
@@ -71,7 +71,7 @@ function Home() {
 
                 <div className="sm:w-[370px] sm:h-[500px] w-[270px] h-[350px] mx-auto  rounded-md border transition duration-500 hover:scale-110 cursor-pointer">
                     <img
-                        src="/public/secondFran.jpg"
+                        src="./secondFran.jpg"
                         alt="Laptop"
                         className="h-[50%] w-full rounded-md"
                     />
@@ -93,7 +93,7 @@ function Home() {
 
                 <div className="sm:w-[370px] sm:h-[500px] w-[270px] h-[380px] mx-auto  rounded-md border transition duration-500 hover:scale-110 cursor-pointer">
                     <img
-                        src="/public/thirdFran.jpg"
+                        src="./thirdFran.jpg"
                         alt="Laptop"
                         className="h-[50%] w-full rounded-md"
                     />
