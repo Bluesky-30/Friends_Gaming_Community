@@ -6,7 +6,7 @@ import Styletext from './Styletext/Styletext';
 
 function Home() {
     return (
-        <div className="w-full h-[380vh]  bg-[#0d1013]">
+        <div className="w-full h-[400vh] sm:h-[380vh]  bg-[#0d1013]">
            {/* Hero Section  */}
             <section className='w-[100%] sm:h-[100vh] z-[1]'>
                 <img src="./Mesiiiiiii.jpg" alt="Messi"
